@@ -12,6 +12,9 @@ channel.queue_declare(queue='cola_auto', arguments={
 })
 
 
+###
+
+
 def callback(ch, method, properties, body):
     try:
         time.sleep(2)  #simulamos una tarea que toma tiempo
