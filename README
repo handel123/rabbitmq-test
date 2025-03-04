@@ -1,5 +1,6 @@
 # Manual Rabbitmq
 
+
 ## Dependencias
 Se manejan las dependencias mediante venv y el archivo requeriments.txt
 
