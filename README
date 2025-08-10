@@ -1,13 +1,1 @@
-# Manual Rabbitmq
 
-
-## Dependencias
-Se manejan las dependencias mediante venv y el archivo requeriments.txt
-
-Ejecutar *pip install -r requirements.txt* para instalar las dependencias necesarias.
-
-## Variables de entorno
-Se debe crear un archivo *.env*. Se incluye en el repositorio el archivo *.env.example*. Copiar el contenido de este archivo y pegarlo en un nuevo *.env* creado. Este contiene todas las variables con valores referenciales para ejecutar el proyecto. Para efectos de este proyecto, usar los mismos valores a no ser que se modifiquen, esto sujeto a responsabilidad del usuario.
-
-## Ejecución
-Se ejecutarán dos archivos, productor.py y autoescalador.py. 
